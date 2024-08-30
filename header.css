@@ -23,6 +23,9 @@
 .lista-menu{
     display: none;
 }
+.container__botao:checked ~ .lista-menu {
+display:block;
+}
 .lista-menu_titulo,
 .lista-menu_item {
     padding: 1em;
